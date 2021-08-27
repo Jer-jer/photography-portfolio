@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jer's Biography</title>
+	<link rel="icon" href="JerLogo2.png" type="image/icon type">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Bootstrap CSS-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!--AOS CSS-->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!--Own CSS-->
+	<link rel="stylesheet" type="text/css" href="landingpage.css">
+	<link rel="stylesheet" type="text/css" href="biography.css">
+</head>
+<body class="body-bg">
+	<!--Navbar-->
+	<nav class="navbar navbar-expand">
+		<div class="navbar-container">
+			<a href="index.html" class="navbar-brand"><img src="JerLogo2.png" class="nav-logo"></a>
+			<div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="navbar-vl">|</li>
+					<li class="nav-item">
+						<a href="biography.html" class="active nav-link">Biography</a>
+					</li>
+					<li class="navbar-vl">|</li>
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link">Gallery</a>
+					</li>
+					<li class="navbar-vl">|</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Contact Me</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--Biography Content-->
+	<div class="bio">
+		<div class="container bg-dark"  data-aos="fade-right"  data-aos-duration="2000">
+			<div class="text-center">
+  				<img src="profpic.jpg" class="img-thumbnail" width="230" style="display: inline-block; border-radius: 50%;">
+			</div>
+			<p class="lead description" style="display: inline-block;">My real name is Allan Jericho Bargamento, a BSIT 2 student under Sir Rayver of Web Development course IT1202 at University of San Carlos Talamban-Campus I am practicing andhoning my skills in programming while at the same time honing my videography and photography skills. My hobbies are photography, videographyand web design, so that I can earn money to buy a DSLR, a video camera and a suit.</p>
+			<div data-aos="fade-right"  data-aos-duration="1000">
+				<div class="card" style="width: 18rem; display: inline-block;">
+  					<img src="stock-photo-159358357.jpg" class="card-img-top">
+  					<div class="card-body">
+    				<h5 class="card-title">Photography</h5>
+    				<p class="card-text" style="text-align: left;">I love to capture picture that gives a story</p>
+  				</div>
+				</div>
+				<div class="card" style="width: 18rem; display: inline-block;">
+  					<img src="videographer-definition.jpg" class="card-img-top" height="185px">
+  					<div class="card-body">
+    					<h5 class="card-title">Videography</h5>
+    					<p class="card-text" style="text-align: left;">I love taking videos that produces a dynamic transitions</p>
+  					</div>
+				</div>
+				<div class="card" style="width: 18rem; display: inline-block;">
+  					<img src="photo-1515879218367-8466d910aaa4.jpg" class="card-img-top">
+  					<div class="card-body">
+    					<h5 class="card-title">Web Design</h5>
+    					<p class="card-text" style="text-align: left;">I plan to be a successful web designer in the future.</p>
+  					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!--Social Media Links-->
+	<div style="text-align: right; margin: 50px;"><img src="pngkey.com-facebook-circle-png-503771.png" class="logo" href="https://www.facebook.com/allanjbargs"><img src="PinClipart.com_reform-clipart_1763393.png" class="logo" href="https://twitter.com/allan_jericho"><img src="pngguru.com-id-ntjco.png" class="logo" href="https://www.instagram.com/allanj_bargs/"><img src="pexels2x.png" class="logo logo-word" href="https://www.pexels.com/">		
+	</div>
+
+
+
+	<!--Contact Me Modal-->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  		<div class="modal-dialog animate modal-contered" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<h5 class="modal-title" id="exampleModalLabel">Send me a message!</h5>
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          			<span aria-hidden="true">&times;</span>
+        			</button>
+      			</div>
+      		<div class="modal-body">
+        		<form>
+          			<div class="form-group">
+            			<input type="text" class="form-control-2" id="recipient-name" placeholder="Enter Name" required>
+            			<input type="text" class="form-control-2" id="recipient-name" placeholder="Enter Email" required>
+          			</div>
+          		<div class="form-group">
+          			<label for="message-text" class="col-form-label">Subject:</label>
+          			<input type="text" class="form-control" id="recipient-name" required>
+            		<label for="message-text" class="col-form-label">Message:</label>
+            		<textarea class="form-control" id="message-text"></textarea>
+            		<small id="emailHelp" class="form-text text-muted">I'll never share your message with anyone else.</small>
+          		</div>
+        		</form>
+      		</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Submit</button>
+      </div>
+    		</div>
+  		</div>
+	</div>
+
+<!--Bootstrap Javascript-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!--AOS Javascript-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
